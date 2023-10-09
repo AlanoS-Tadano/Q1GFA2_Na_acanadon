@@ -1,0 +1,134 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+#menubar{
+    background-image: linear-gradient(to right, black, rgb(121, 0, 0));
+    width: 98.79vw;
+    height: 30vh;
+    display: inline-block;
+    text-align: right;
+}
+
+#menubar .pmcname{
+    padding-top: 1vh;
+    padding-left: 1vh;
+    text-align: left;
+    color: white;
+    font-size: 3vh;
+}
+
+#menubar .links{
+    display: inline-block;
+    text-align: right;
+}
+
+#menubar .links .link{
+    padding: 1vh;
+    position: relative;
+}
+
+#menubar .links a{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 3vh;
+    text-decoration: none;
+    padding: 1vh;
+    margin: 1vh;
+    border: 1px solid black;
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+#Au{
+    background-color: white;
+}
+
+#Eq{
+    background-color: white;
+}
+
+#Mi{
+    background-color: white;
+}
+
+#Co{
+    background-color: white;
+}
+
+.content-body{
+    text-align: center;
+    background-color: black;
+    margin-top: 3vh;
+    height: 100vh;
+    width: 98.79vw;
+}
+
+.side-links{
+    display: inline-block;
+    border: 1px solid white;
+    width: 15vw;
+    height: 50vh;
+    margin: 2vh;
+    float: left;
+}
+
+.side-links a{
+    display: block;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 3vh;
+    text-decoration: none;
+    padding: 1vh;
+    margin: 1vh;
+    border: 1px solid black;
+    transition: 0.2s;
+    border-radius: 5px;
+    border-color: white;
+    color: white;
+}
+
+
+.main-content{
+    display: inline-block;
+    border: 1px solid white;
+    width: 60vw;
+    height: 90vh;
+    margin-top: 2vh;
+    float: center;
+    color: white;
+}
+
+.main-content h2{
+    font-size: 5vw;
+}
+
+.main-content img{
+    width: 20vw;
+    height: 20vh;
+}
+
+.main-content p{
+    color: white;
+    font-size: 1.5vw;
+}
+
+.side-content{
+    display: inline-block;
+    border: 1px solid white;
+    width: 15vw;
+    height: 50vh;
+    margin: 2vh;
+    float: right;
+}
+
+.side-content img{
+    height: 22vh;
+    width: 12vw;
+}
+
+.side-content p{
+    color: white;
+    font-size: 1.5vw;
+}
