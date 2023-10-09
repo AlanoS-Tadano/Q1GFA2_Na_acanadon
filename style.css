@@ -93,8 +93,8 @@
 .main-content{
     display: inline-block;
     border: 1px solid white;
-    width: 60vw;
-    height: 90vh;
+    width: 90vh;
+    height: 40vw;
     margin-top: 2vh;
     float: center;
     color: white;
